@@ -48,7 +48,7 @@ public class EmployeeController {
 		if(opt.isPresent()) {
 			Employee employee = opt.get();
 			er.delete(employee);
-			return "Employee Deleted";
+			return "Employee Deleted successfully";
 		}
 		else {
 			return "No Employee to Delete";
